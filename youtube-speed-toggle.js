@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name            Youtube Playback Speed Toggle 1.6
+// @name            Youtube Speed Toggle Button
 // @description     Adds a styled toggle button next to the fullscreen button on YouTube's video player to toggle playback speed between normal and 1.15x for non-music videos, showing the current speed in a white circle. Attempts to start at 1.15x by default for non-music videos.
 // @author          Luke-L
 // @version         1.6
