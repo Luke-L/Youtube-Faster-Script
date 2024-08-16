@@ -1,17 +1,18 @@
 // ==UserScript==
 // @name            Youtube Playback Speed Toggle 1.6
-// @description     Adds a styled toggle button next to the fullscreen button on YouTube's video player to toggle playback speed between normal and 1.3x for non-music videos, showing the current speed in a white circle. Starts at 1.15x by default for non-music videos.
+// @description     Adds a styled toggle button next to the fullscreen button on YouTube's video player to toggle playback speed between normal and 1.15x for non-music videos, showing the current speed in a white circle. Attempts to start at 1.15x by default for non-music videos.
 // @author          Luke-L
-// @icon            https://raw.githubusercontent.com/Luke-L/Youtube-Faster-Script/main/YT%20Fast%20Speed%202.png
-// @update          https://raw.githubusercontent.com/Luke-L/Youtube-Faster-Script/main/youtube-speed-toggle.js
 // @version         1.6
 // @match           https://www.youtube.com/watch*
 // @namespace       youtube-speed-toggle
 // @grant           none
 // @license         GPL-3.0-or-later; http://www.gnu.org/licenses/gpl-3.0.txt
+// @icon            https://raw.githubusercontent.com/Luke-L/Youtube-Faster-Script/main/YT%20Fast%20Speed%202.png
+// @update          https://raw.githubusercontent.com/Luke-L/Youtube-Faster-Script/main/youtube-speed-toggle.js
+// @homepage        https://github.com/Luke-L/Youtube-Faster-Script/
 // ==/UserScript==
 
-// working okay. doesnt quite get the music distinction right idk
+// working now. doesnt quite get the music distinction right idk
 
 (function() {
     'use strict';
